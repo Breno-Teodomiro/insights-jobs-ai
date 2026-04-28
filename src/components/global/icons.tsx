@@ -8,12 +8,11 @@ type IconType = {
 const Icons: IconType = {
     icon: (props: LucideProps) => (
         <Image 
-            {...props}
             src="/images/logo.png" 
             alt="Insights Jobs AI Logo"
             width={props.width ? parseInt(props.width as string) : 32}
             height={props.height ? parseInt(props.height as string) : 32}
-            className="object-contain brightness-0 invert"
+            className={`object-contain brightness-0 invert ${props.className || ""}`}
         />
     ),
     pen: PenOff,

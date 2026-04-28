@@ -1,0 +1,6 @@
+@echo off
+echo Criando .env.local...
+node env-setup.js
+echo.
+echo Iniciando servidor de desenvolvimento...
+npm run dev
