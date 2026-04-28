@@ -13,7 +13,14 @@ import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
 
-    const { user } = useClerk();
+    // Tenta usar Clerk, mas trata erro se não estiver disponível
+    let user = null;
+    try {
+        const clerk = useClerk();
+        user = clerk.user;
+    } catch (e) {
+        // Clerk não disponível, user permanece null
+    }
 
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
