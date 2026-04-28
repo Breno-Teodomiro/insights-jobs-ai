@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import { AuthPlaceholder } from "@/components/auth/auth-placeholder";
 import { Suspense } from "react";
 

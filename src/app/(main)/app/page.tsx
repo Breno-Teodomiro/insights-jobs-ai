@@ -1,7 +1,5 @@
 "use client"
 
-export const dynamic = 'force-dynamic';
-
 import React from 'react'
 import { ArrowDownIcon, MessageSquareIcon } from "lucide-react";
 import { ArrowUpIcon, BarChart3Icon, Share2Icon } from "lucide-react";
