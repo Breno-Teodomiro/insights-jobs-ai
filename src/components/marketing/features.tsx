@@ -12,7 +12,7 @@ const Features = () => {
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24 w-full">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-                    <SectionBadge title="Features" />
+                    <SectionBadge title="Recursos" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
                         Consultoria IA que <br /> transforma resultados
                     </h2>

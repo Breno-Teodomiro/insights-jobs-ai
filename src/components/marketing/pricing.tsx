@@ -117,7 +117,7 @@ const Plan = ({
                 {id === "pro" && (
                     <div className="max-w-fit min-w-min inline-flex items-center whitespace-nowrap px-1 h-7 rounded-full bg-gradient-to-r from-primary to-violet-500 absolute -top-3 left-1/2 -translate-x-1/2 select-none">
                         <span className="flex-1 text-sm px-2 font-medium bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent bg-[length:250%_100%] animate-background-shine">
-                            Most Popular
+                            Mais Popular
                         </span>
                     </div>
                 )}
@@ -138,7 +138,7 @@ const Plan = ({
                             </span>
                             {/* In here 120 * 0.8 = 96 and /12 to get monthly price */}
                             <span className="text-lg text-muted-foreground font-medium font-headin">
-                                per {plan === "monthly" ? "month" : "month"}
+                                /mês
                             </span>
                         </div>
                         <AnimatePresence>

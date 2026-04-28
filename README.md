@@ -75,7 +75,7 @@ Para rodar o projeto localmente:
 ## ☕ Contato Comercial
 Para saber mais sobre nossos serviços de consultoria em IA, entre em contato conosco.
 
-📧 contato@insightsjobsai.com.br
+📧 contato@insightsjobsia.com
 🌐 https://insights-jobs-ai.vercel.app
 
 ## 📜 Licença
