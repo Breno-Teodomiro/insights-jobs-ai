@@ -1,8 +1,9 @@
+import React from "react";
 import { LucideProps, PenOff } from "lucide-react";
 import Image from "next/image";
 
 type IconType = {
-    [key: string]: (props: LucideProps) => JSX.Element;
+    [key: string]: React.FC<LucideProps>;
 };
 
 const Icons: IconType = {
