@@ -64,10 +64,10 @@ const SignUpForm = () => {
                 redirectUrlComplete: "/auth/callback",
             });
 
-            toast.loading(`Redirecting to ${strategy === "oauth_google" ? "Google" : "Apple"}...`);
+            toast.loading(`Redirecionando para ${strategy === "oauth_google" ? "Google" : "Apple"}...`);
         } catch (error) {
             console.error(error);
-            toast.error("An error occurred. Please try again.");
+            toast.error("Ocorreu um erro. Tente novamente.");
         }
     };
 
@@ -77,7 +77,7 @@ const SignUpForm = () => {
         if (!isLoaded) return;
 
         if (!email) {
-            toast.error("Please enter your email address");
+            toast.error("Por favor, digite seu email");
             return;
         }
 
@@ -95,21 +95,21 @@ const SignUpForm = () => {
 
             setIsCodeSent(true);
 
-            toast.success("We have sent a code to your email address");
+            toast.success("Enviamos um código para seu email");
         } catch (error: any) {
             switch (error.errors[0]?.code) {
                 case "form_identifier_exists":
-                    toast.error("This email is already registered. Please sign in.");
+                    toast.error("Este email já está cadastrado. Por favor, entre.");
                     router.push("/auth/signin?from=signup");
                     break;
                 case "form_password_pwned":
-                    toast.error("The password is too common. Please choose a stronger password.");
+                    toast.error("A senha é muito comum. Por favor, escolha uma senha mais forte.");
                     break;
                 case "form_param_format_invalid":
-                    toast.error("Invalid email address. Please enter a valid email address.");
+                    toast.error("Email inválido. Por favor, digite um email válido.");
                     break;
                 case "form_password_length_too_short":
-                    toast.error("Password is too short. Please choose a longer password.");
+                    toast.error("Senha muito curta. Por favor, escolha uma senha mais longa.");
                     break;
                 default:
                     toast.error("An error occurred. Please try again");
@@ -130,7 +130,7 @@ const SignUpForm = () => {
         if (!isLoaded) return;
 
         if (!code) {
-            toast.error("Please enter the code");
+            toast.error("Por favor, digite o código");
             return;
         }
 
@@ -146,7 +146,7 @@ const SignUpForm = () => {
                 router.push("/auth/callback");
             } else {
                 console.error(JSON.stringify(completeSignup, null, 2));
-                toast.error("Invalid verification code. Please try again.");
+                toast.error("Código de verificação inválido. Tente novamente.");
             }
         } catch (error) {
             console.error("Error:", JSON.stringify(error, null, 2));
@@ -211,7 +211,7 @@ const SignUpForm = () => {
                                 className="w-full"
                             >
                                 {isGoogleLoading ? <LoadingIcon size="sm" className="w-4 h-4 absolute left-4" /> : <Icons.google className="w-4 h-4 absolute left-4" />}
-                                Continue with Google
+                                Continuar com Google
                             </Button>
                         </div>
                         <div className="w-full">
@@ -224,7 +224,7 @@ const SignUpForm = () => {
                                 className="w-full"
                             >
                                 {isAppleLoading ? <LoadingIcon size="sm" className="w-4 h-4 absolute left-4" /> : <Icons.apple className="w-4 h-4 absolute left-4" />}
-                                Continue with Apple
+                                Continuar com Apple
                             </Button>
                         </div>
                         <div className="w-full">
@@ -237,7 +237,7 @@ const SignUpForm = () => {
                                 className="w-full"
                             >
                                 <MailIcon className="w-4 h-4 absolute left-4" />
-                                Continue with email
+                                Continuar com email
                             </Button>
                         </div>
                         <div className="pt-12 text-muted-foreground text-sm">
@@ -264,7 +264,7 @@ const SignUpForm = () => {
                                         value={code}
                                         disabled={isCodeLoading}
                                         onChange={(e) => setCode(e.target.value)}
-                                        placeholder="Enter the verification code"
+                                        placeholder="Digite o código de verificação"
                                         className="w-full"
                                     />
                                 </div>
@@ -274,7 +274,7 @@ const SignUpForm = () => {
                                         disabled={isCodeLoading}
                                         className="w-full"
                                     >
-                                        {isCodeLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Verify code"}
+                                        {isCodeLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Verificar código"}
                                     </Button>
                                 </div>
                                 <div className="w-full flex items-center gap-2">
@@ -286,7 +286,7 @@ const SignUpForm = () => {
                                         className="w-full"
                                     >
                                         <Link href="https://mail.google.com" target="_blank">
-                                            Open gmail
+                                            Abrir Gmail
                                         </Link>
                                     </Button>
                                     <Button
@@ -297,7 +297,7 @@ const SignUpForm = () => {
                                         className="w-full"
                                     >
                                         <Link href="https://outlook.live.com" target="_blank">
-                                            Open outlook
+                                            Abrir Outlook
                                         </Link>
                                     </Button>
                                 </div>
@@ -320,7 +320,7 @@ const SignUpForm = () => {
                                         value={email}
                                         disabled={isEmailLoading}
                                         onChange={(e) => setEmail(e.target.value)}
-                                        placeholder="Enter your email address"
+                                        placeholder="Digite seu email"
                                         className="w-full"
                                     />
                                 </div>
@@ -330,7 +330,7 @@ const SignUpForm = () => {
                                         disabled={isEmailLoading}
                                         className="w-full"
                                     >
-                                        {isEmailLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Continue"}
+                                        {isEmailLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Continuar"}
                                     </Button>
                                 </div>
                                 <div className="w-full">
@@ -342,7 +342,7 @@ const SignUpForm = () => {
                                         className="w-full"
                                     >
                                         <ArrowLeftIcon className="w-3.5 h-3.5 mr-2" />
-                                        Back
+                                        Voltar
                                     </Button>
                                 </div>
                             </motion.form>

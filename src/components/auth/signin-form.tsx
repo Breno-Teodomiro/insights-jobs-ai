@@ -61,10 +61,10 @@ const SignInForm = () => {
                 redirectUrlComplete: "/auth/callback",
             });
 
-            toast.loading(`Redirecting to ${strategy === "oauth_google" ? "Google" : "Apple"}...`);
+            toast.loading(`Redirecionando para ${strategy === "oauth_google" ? "Google" : "Apple"}...`);
         } catch (error) {
             console.error(error);
-            toast.error("An error occurred. Please try again.");
+            toast.error("Ocorreu um erro. Tente novamente.");
         }
     };
 
@@ -74,7 +74,7 @@ const SignInForm = () => {
         if (!isLoaded) return;
 
         if (!email) {
-            toast.error("Please enter your email address");
+            toast.error("Por favor, digite seu email");
             return;
         }
 
@@ -106,11 +106,11 @@ const SignInForm = () => {
             console.error(JSON.stringify(error, null, 2));
             switch (error.errors[0]?.code) {
                 case "form_identifier_not_found":
-                    toast.error("This email is not registered. Please sign up first.");
+                    toast.error("Este email não está cadastrado. Por favor, crie uma conta primeiro.");
                     router.push("/auth/signup?from=signin");
                     break;
                 case "too_many_attempts":
-                    toast.error("Too many attempts. Please try again later.");
+                    toast.error("Muitas tentativas. Tente novamente mais tarde.");
                     break;
                 default:
                     toast.error("An error occurred. Please try again");
@@ -131,7 +131,7 @@ const SignInForm = () => {
         if (!isLoaded) return;
 
         if (!code) {
-            toast.error("Please enter the code");
+            toast.error("Por favor, digite o código");
             return;
         }
 
@@ -149,20 +149,20 @@ const SignInForm = () => {
                 router.push("/auth/callback");
             } else {
                 console.error(JSON.stringify(signInAttempt, null, 2));
-                toast.error("Invalid code. Please try again.");
+                toast.error("Código inválido. Tente novamente.");
             }
 
         } catch (error: any) {
             console.error(JSON.stringify(error, null, 2));
             switch (error.errors[0]?.code) {
                 case "form_code_incorrect":
-                    toast.error("Incorrect code. Please enter valid code.");
+                    toast.error("Código incorreto. Digite um código válido.");
                     break;
                 case "verification_failed":
-                    toast.error("Verification failed. Please try after some time.");
+                    toast.error("Verificação falhou. Tente novamente mais tarde.");
                     break;
                 case "too_many_attempts":
-                    toast.error("Too many attempts. Please try again later.");
+                    toast.error("Muitas tentativas. Tente novamente mais tarde.");
                     break;
                 default:
                     toast.error("An error occurred. Please try again");
@@ -232,7 +232,7 @@ const SignInForm = () => {
                                 ) : (
                                     <Icons.google className="w-4 h-4 absolute left-4" />
                                 )}
-                                Continue with Google
+                                Continuar com Google
                             </Button>
                         </div>
                         <div className="w-full">
@@ -245,7 +245,7 @@ const SignInForm = () => {
                                 className="w-full"
                             >
                                 {isAppleLoading ? <LoadingIcon size="sm" className="w-4 h-4 absolute left-4" /> : <Icons.apple className="w-4 h-4 absolute left-4" />}
-                                Continue with Apple
+                                Continuar com Apple
                             </Button>
                         </div>
                         <div className="w-full">
@@ -258,7 +258,7 @@ const SignInForm = () => {
                                 className="w-full"
                             >
                                 <MailIcon className="w-4 h-4 absolute left-4" />
-                                Continue with email
+                                Continuar com email
                             </Button>
                         </div>
                     </motion.div>
@@ -283,7 +283,7 @@ const SignInForm = () => {
                                         maxLength={6}
                                         disabled={isCodeLoading}
                                         onChange={(e) => setCode(e.target.value)}
-                                        placeholder="Enter the verification code"
+                                        placeholder="Digite o código de verificação"
                                         className="w-full"
                                     />
                                 </div>
@@ -293,7 +293,7 @@ const SignInForm = () => {
                                         disabled={isCodeLoading}
                                         className="w-full"
                                     >
-                                        {isCodeLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Verify code"}
+                                        {isCodeLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Verificar código"}
                                     </Button>
                                 </div>
                                 <div className="w-full flex items-center gap-2">
@@ -341,7 +341,7 @@ const SignInForm = () => {
                                         value={email}
                                         disabled={isEmailLoading}
                                         onChange={(e) => setEmail(e.target.value)}
-                                        placeholder="Enter your email address"
+                                        placeholder="Digite seu email"
                                         className="w-full"
                                     />
                                 </div>
@@ -351,7 +351,7 @@ const SignInForm = () => {
                                         disabled={isEmailLoading}
                                         className="w-full"
                                     >
-                                        {isEmailLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Continue"}
+                                        {isEmailLoading ? <LoadingIcon size="sm" className="mr-2" /> : "Continuar"}
                                     </Button>
                                 </div>
                                 <div className="w-full">
@@ -363,7 +363,7 @@ const SignInForm = () => {
                                         className="w-full"
                                     >
                                         <ArrowLeftIcon className="w-3.5 h-3.5 mr-2" />
-                                        Back
+                                        Voltar
                                     </Button>
                                 </div>
                             </motion.form>

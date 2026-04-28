@@ -9,121 +9,121 @@ export const REVIEWS: REVIEW[] = [
     {
         name: "Carlos Silva",
         username: "@carlossilva",
-        review: "A consultoria da Insights Jobs AI transformou completamente nossa gestão. Os agentes de IA são incríveis!",
+        review: "Reduzimos 40% dos custos operacionais em 3 meses com os agentes de IA da Insights Jobs AI. O ROI foi imediato!",
         img: "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
         name: "Ana Paula",
         username: "@anapaula",
-        review: "Adorei a integração perfeita com nossos sistemas. Facilitou muito nossos processos operacionais.",
+        review: "A integração dos agentes IA com nosso ERP aumentou nossa produtividade em 60%. Processos que levavam dias agora são feitos em horas.",
         img: "https://randomuser.me/api/portraits/women/2.jpg"
     },
     {
         name: "Roberto Lima",
         username: "@robertolima",
-        review: "Os recursos oferecidos são incomparáveis. Nossa produtividade aumentou muito desde que começamos.",
+        review: "Contratamos a consultoria para automação de atendimento. Resultado: 80% das dúvidas resolvidas sem intervenção humana. Sensacional!",
         img: "https://randomuser.me/api/portraits/men/3.jpg"
     },
     {
         name: "Fernanda Costa",
         username: "@fernandacosta",
-        review: "O suporte ao cliente é excelente. Sempre prontos para ajudar com qualquer dúvida.",
+        review: "O suporte da Insights Jobs AI é diferenciado. Eles entendem nosso negócio e entregam soluções que realmente geram resultados.",
         img: "https://randomuser.me/api/portraits/women/4.jpg"
     },
     {
         name: "André Souza",
         username: "@andresouza",
-        review: "As opções de personalização são perfeitas para nossas necessidades. Altamente recomendado!",
+        review: "Nosso faturamento cresceu 35% após implementar os agentes de vendas inteligentes. A qualificação de leads automática mudou tudo!",
         img: "https://randomuser.me/api/portraits/men/5.jpg"
     },
     {
         name: "Mariana Oliveira",
         username: "@marianaoliveira",
-        review: "O design intuitivo e facilidade de uso fazem desta plataforma essencial para qualquer negócio.",
+        review: "Deixamos de perder oportunidades por falta de follow-up. O agente de IA faz o trabalho sozinho e nossas vendas aumentaram 50%.",
         img: "https://randomuser.me/api/portraits/women/6.jpg"
     },
     {
         name: "Ricardo Mendes",
         username: "@ricardomendes",
-        review: "Desde análises até ferramentas com IA, este serviço cobre tudo que precisamos para crescer.",
+        review: "A análise preditiva de dados nos ajudou a antecipar demandas e otimizar estoque. Economizamos milhões em produtos parados.",
         img: "https://randomuser.me/api/portraits/men/7.jpg"
     },
     {
         name: "Juliana Santos",
         username: "@julianasantos",
-        review: "Os insights impulsionados por IA nos ajudaram a tomar melhores decisões. Verdadeiramente impressionante!",
+        review: "Os relatórios gerados pela IA trouxeram insights que nunca teríamos descoberto sozinhos. Decisões mais assertivas e rápidas.",
         img: "https://randomuser.me/api/portraits/women/8.jpg"
     },
     {
         name: "Bruno Ferreira",
         username: "@brunoferreira",
-        review: "Já experimentei muitas consultorias, mas esta se destaca pela facilidade de uso e recursos poderosos.",
+        review: "Já testamos outras consultorias, mas a Insights Jobs AI entrega resultados mensuráveis em semanas, não em meses.",
         img: "https://randomuser.me/api/portraits/men/9.jpg"
     },
     {
         name: "Patrícia Lima",
         username: "@patricialima",
-        review: "A automação inteligente é um salva-vidas! Conseguimos planejar nossos processos com semanas de antecedência.",
+        review: "Automatizamos 70% do processo de onboarding de clientes. Nossa equipe agora foca no que realmente agrega valor ao negócio.",
         img: "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
         name: "Marcelo Dias",
         username: "@marcelodias",
-        review: "Excelente ferramenta para gerenciar múltiplos processos. O painel é amigável e muito eficiente.",
+        review: "A gestão de múltiplos projetos com agentes de IA reduziu nosso prazo médio de entrega em 45%. Clientes mais satisfeitos que nunca.",
         img: "https://randomuser.me/api/portraits/men/11.jpg"
     },
     {
         name: "Camila Rodrigues",
         username: "@camilarodrigues",
-        review: "Os recursos de análise me dão todos os dados que preciso para otimizar nossa estratégia. Adoro!",
+        review: "Os dashboards em tempo real nos dão controle total das operações. Identificamos gargalos instantaneamente e agimos rápido.",
         img: "https://randomuser.me/api/portraits/women/12.jpg"
     },
     {
         name: "Felipe Almeida",
         username: "@felipealmeida",
-        review: "Uma plataforma fantástica que simplificou nossa gestão de processos. Altamente recomendado!",
+        review: "Implementamos o agente de análise de documentos e reduzimos o trabalho manual em 90%. Eficiência operacional exponencial!",
         img: "https://randomuser.me/api/portraits/men/13.jpg"
     },
     {
         name: "Daniela Martins",
         username: "@danielamartins",
-        review: "Os recursos de colaboração são ótimos para equipes. Tornou nosso fluxo de trabalho muito mais eficiente.",
+        review: "Nossa equipe de vendas triplicou a conversão com o auxílio dos agentes IA. Eles priorizam os leads certos no momento certo.",
         img: "https://randomuser.me/api/portraits/women/14.jpg"
     },
     {
         name: "Gustavo Rocha",
         username: "@gustavorocha",
-        review: "Adoro como é fácil acompanhar performance e engajamento. Os relatórios são detalhados e esclarecedores.",
+        review: "O atendimento 24/7 com agentes de IA aumentou nossa satisfação do cliente em 85%. Respostas instantâneas e precisas sempre.",
         img: "https://randomuser.me/api/portraits/men/15.jpg"
     },
     {
         name: "Sabrina Vieira",
         username: "@sabrinavieira",
-        review: "O calendário de conteúdo mudou o jogo. Ajuda a manter organização e consistência em nossos projetos.",
+        review: "A automação do fluxo de aprovações cortou nosso tempo de resposta de dias para minutos. Agilidade que impacta direto no resultado.",
         img: "https://randomuser.me/api/portraits/women/16.jpg"
     },
     {
         name: "Thiago Moreira",
         username: "@thiagomoreira",
-        review: "Melhor investimento para meu negócio! As sugestões de IA melhoraram significativamente nossa qualidade.",
+        review: "Investimento que se pagou em 2 meses! A redução de custos com processos manuais superou todas as nossas expectativas.",
         img: "https://randomuser.me/api/portraits/men/17.jpg"
     },
     {
         name: "Amanda Costa",
         username: "@amandacosta",
-        review: "A plataforma é robusta e confiável. Consigo gerenciar todos os processos da empresa em um só lugar.",
+        review: "Centralizamos 5 sistemas diferentes em uma única plataforma inteligente. Visibilidade total e controle absoluto das operações.",
         img: "https://randomuser.me/api/portraits/women/18.jpg"
     },
     {
         name: "Leonardo Pinto",
         username: "@leonardopinto",
-        review: "Ótima ferramenta para análises e relatórios. Me ajudou a entender melhor meus clientes.",
+        review: "Os relatórios automatizamos economizam 20 horas semanais da nossa equipe. Dados precisos sem esforço manual.",
         img: "https://randomuser.me/api/portraits/men/19.jpg"
     },
     {
         name: "Larissa Nunes",
         username: "@larissanunes",
-        review: "Os recursos de automação me economizam muito tempo. Posso focar no que realmente importa.",
+        review: "Deixamos de contratar 3 funcionários temporários graças à automação. Economia recorrente que faz toda diferença no P&L.",
         img: "https://randomuser.me/api/portraits/women/20.jpg"
     },
 ];

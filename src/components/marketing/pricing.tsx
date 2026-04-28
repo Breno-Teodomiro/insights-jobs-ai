@@ -134,7 +134,7 @@ const Plan = ({
                     <div className="flex items-end gap-2">
                         <div className="flex items-end gap-1 w-40">
                             <span className="text-3xl md:text-4xl font-bold">
-                                ${displayedPrice === 0 ? 0 : <NumberTicker value={displayedPrice} />}
+                                R${displayedPrice === 0 ? 0 : <NumberTicker value={displayedPrice} />}
                             </span>
                             {/* In here 120 * 0.8 = 96 and /12 to get monthly price */}
                             <span className="text-lg text-muted-foreground font-medium font-headin">
