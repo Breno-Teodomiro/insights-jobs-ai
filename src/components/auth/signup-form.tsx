@@ -26,7 +26,6 @@ import Icons from "../global/icons";
 import { FADE_IN_VARIANTS } from "@/constants";
 import { toast } from "sonner";
 import LoadingIcon from "../ui/loading-icon";
-import { OAuthStrategy } from "@clerk/types";
 
 
 const SignUpForm = () => {
@@ -50,7 +49,7 @@ const SignUpForm = () => {
     const [isGoogleLoading, setIsGoogleLoading] = useState<boolean>(false);
     const [isAppleLoading, setIsAppleLoading] = useState<boolean>(false);
 
-    const handleOAuth = async (strategy: OAuthStrategy) => {
+    const handleOAuth = async (strategy: "oauth_google" | "oauth_apple") => {
         if (strategy === "oauth_google") {
             setIsGoogleLoading(true);
         } else {
