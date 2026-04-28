@@ -1,30 +1,29 @@
-<img src="https://github.com/user-attachments/assets/a1d7ced5-e6fc-41fd-9256-9d73a5f33597" alt="Luro Logo" width="50" height="50">
+# 🤖 Insights Jobs AI - Consultoria em Agentes Estratégicos de Negócio
+
+Landing page profissional para serviço de consultoria em Inteligência Artificial e desenvolvimento de agentes IA estratégicos para empresas.
+
+<img src="https://github.com/user-attachments/assets/0ff7129e-2f5d-48ae-913d-d4fd1507e613" alt="Insights Jobs AI Thumbnail" style="border-radius: 12px;" width="1280">
 
 
-# 🔗 Luro - AI Powered Content Creation Platform(Landing Page)
+## 🌟 Introdução
+A Insights Jobs AI é uma consultoria especializada em Inteligência Artificial que desenvolve agentes estratégicos personalizados para empresas. Nossa missão é transformar negócios através da automação inteligente, reduzindo custos operacionais em até 40% e acelerando o crescimento sustentável.
 
-<!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Linkify Thubmnail"> -->
-<img src="https://github.com/user-attachments/assets/0ff7129e-2f5d-48ae-913d-d4fd1507e613" alt="Luro Thumbnail" style="border-radius: 12px;" width="1280">
+## 🚀 Serviços
 
+- 🤖 Desenvolvimento de Agentes IA Personalizados
+- 📊 Análise Estratégica de Dados e Processos
+- 🔗 Integração com Sistemas Existentes (ERP, CRM, E-commerce)
+- ⚡ Automação Inteligente de Fluxos de Trabalho
+- 📈 Dashboards e Relatórios em Tempo Real
+- 🎓 Treinamento e Capacitação de Equipes
 
-## 🌟 Introduction
-Luro is an innovative social media marketing platform designed to help you streamline your social media management effortlessly. Built with Next.js, Tailwind CSS, Shadcn UI, Magic UI, Aceternity UI, Prisma, MongoDB, Clerk, React Hook Form, and TypeScript, Luro provides powerful analytics and user-friendly features to enhance your social media marketing experience.
+## 🔗 Preview ao Vivo
 
-## 🚀 Features
+Acesse a landing page: [Live Preview](https://insights-jobs-ai.vercel.app)
 
-- Real-time performance tracking across platforms
-- Engagement rate calculations and trends
-- Audience growth and demographic insights
-- Custom report generation
-- ROI tracking and analysis
+## 💻 Sobre o Projeto
 
-## 🔗 Live Preview
-
-Check out the live demo of Luro here: [Live Preview](http://luro-ai.vercel.app)
-
-## 🎥 Watch Demo on YouTube
-
-Check out the tutorial to see how this social media marketing platform was built: [Watch the Tutorial](https://youtu.be/q8mOwYrpAHA?si=XpGy9VIKkaWJmfPL) 💻 
+Este é um projeto de landing page profissional desenvolvido para a Insights Jobs AI, apresentando serviços de consultoria em Inteligência Artificial e agentes estratégicos de negócio.
 
 ## 💻 Tech Stack
 
@@ -39,18 +38,18 @@ Check out the tutorial to see how this social media marketing platform was built
 * Recharts
 * Framer Motion
 
-## 🛠️ Installation
-To run Luro locally, follow these steps:
+## 🛠️ Instalação
+Para rodar o projeto localmente:
 
-1. Clone the repository:
+1. Clone o repositório:
     ```bash
-    git clone https://github.com/Shreyas-29/luro-ai.git
+    git clone https://github.com/seu-usuario/insights-jobs-ai.git
     ```
-2. Install dependencies:
+2. Instale as dependências:
     ```bash
-    pnpm install
+    npm install
     ```
-3. Set up environment variables in a `.env` file:
+3. Configure as variáveis de ambiente no arquivo `.env`:
     ```
     # app
     NEXT_PUBLIC_APP_NAME=
@@ -68,21 +67,23 @@ To run Luro locally, follow these steps:
     NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_URL="/"
     ```
 
-4. Run the development server:
+4. Execute o servidor de desenvolvimento:
     ```bash
-    pnpm run dev
+    npm run dev
     ```
 
-## ☕ Buy Me a Coffee
-If you enjoy using Luro, consider supporting my work!  
-[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
+## ☕ Contato Comercial
+Para saber mais sobre nossos serviços de consultoria em IA, entre em contato conosco.
 
-## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+📧 contato@insightsjobsai.com.br
+🌐 https://insights-jobs-ai.vercel.app
 
-## 💬 Contact
-If you have any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/Shreyas-29/luro-ai/issues).
+## 📜 Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 💬 Contato Técnico
+Para dúvidas técnicas sobre o projeto, abra uma issue no GitHub.
 
 ---
 
-Built with ❤️ by [Shreyas](https://shreyas-sihasane.vercel.app/)
+Desenvolvido com ❤️ pela equipe Insights Jobs AI

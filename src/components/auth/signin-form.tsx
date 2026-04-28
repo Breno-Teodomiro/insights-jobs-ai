@@ -197,17 +197,17 @@ const SignInForm = () => {
                 </div>
                 <h1 className="text-2xl text-center mt-4">
                     {isEmailOpen
-                        ? "Login to Luro"
+                        ? "Acessar Insights Jobs AI"
                         : isCodeSent
-                            ? "Verify your email"
-                            : "Welcome to Luro"}
+                            ? "Verifique seu email"
+                            : "Bem-vindo à Insights Jobs AI"}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-2">
                     {isEmailOpen
-                        ? "Choose a method to login"
+                        ? "Escolha um método para acessar"
                         : isCodeSent
-                            ? "Please check your inbox for verification code"
-                            : "Enter your email address to get started"}
+                            ? "Verifique sua caixa de entrada pelo código"
+                            : "Digite seu email para começar"}
                 </p>
             </motion.div>
             {isEmailOpen ? (

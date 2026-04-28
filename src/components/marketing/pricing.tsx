@@ -18,12 +18,12 @@ const Pricing = () => {
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24  w-full relative">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-xl mx-auto">
-                    <SectionBadge title="Choose your plan" />
+                    <SectionBadge title="Escolha seu plano" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Simple and transparent pricing
+                        Preços simples e transparentes
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Choose the plan that suits your needs. No hidden fees, no surprises.
+                        Escolha o plano que atende suas necessidades. Sem taxas ocultas, sem surpresas.
                     </p>
                 </div>
             </Container>
@@ -34,10 +34,10 @@ const Pricing = () => {
                     <Tabs defaultValue="monthly" className="w-full flex flex-col items-center justify-center">
                         <TabsList>
                             <TabsTrigger value="monthly">
-                                Monthly
+                                Mensal
                             </TabsTrigger>
                             <TabsTrigger value="yearly">
-                                Yearly
+                                Anual
                             </TabsTrigger>
                         </TabsList>
                         <TabsContent value="monthly">

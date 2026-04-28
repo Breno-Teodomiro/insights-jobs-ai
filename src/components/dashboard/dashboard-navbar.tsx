@@ -15,7 +15,7 @@ const DashboardNavbar = () => {
                     <Link href="/app" className="flex items-center gap-x-2">
                         <Icons.icon className="w-6" />
                         <span className="text-lg font-semibold">
-                            Luro
+                            Insights Jobs AI
                         </span>
                     </Link>
                 </div>
@@ -25,7 +25,7 @@ const DashboardNavbar = () => {
                         variant="ghost"
                     >
                         <ZapIcon className="size-4 mr-1.5 text-orange-500 fill-orange-500" />
-                        Upgrade
+                        Falar com Consultor
                     </Button>
                     <Button
                         asChild

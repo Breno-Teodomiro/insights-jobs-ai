@@ -22,15 +22,15 @@ const Footer = () => {
                         <div className="flex items-center gap-2">
                             <Icons.icon className="w-5 h-5" />
                             <span className="text-xl font-medium">
-                                Luro
+                                Insights Jobs AI
                             </span>
                         </div>
                         <p className="text-base max-w mt-4">
-                            Empower your business with our AI tools.
+                            Transformando negócios com Inteligência Artificial estratégica.
                         </p>
                         <Button className="mt-8">
                             <Link href="/app">
-                                Start for free
+                                Começar Agora
                             </Link>
                         </Button>
                     </div>
@@ -57,7 +57,7 @@ const Footer = () => {
             <Container>
                 <Wrapper className="pt-10 flex items-center justify-between relative">
                     <p className="text-sm text-secondary-foreground">
-                        &copy; {new Date().getFullYear()} Luro. All rights reserved.
+                        &copy; {new Date().getFullYear()} Insights Jobs AI. Todos os direitos reservados.
                     </p>
                     <div className="flex items-center gap-4">
                         <Link href="#" className="p-1">

@@ -181,16 +181,16 @@ const SignUpForm = () => {
                 </div>
                 <h1 className="text-2xl text-center mt-4">
                     {isEmailOpen
-                        ? "Create your account"
-                        : isCodeSent ? "Check your email"
-                            : "Enter your email"}
+                        ? "Criar sua conta"
+                        : isCodeSent ? "Verifique seu email"
+                            : "Digite seu email"}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-2">
                     {isEmailOpen
-                        ? "Create an account to start using luro"
+                        ? "Crie uma conta para começar a usar a Insights Jobs AI"
                         : isCodeSent
-                            ? "Please check your inbox for verification code"
-                            : "Enter your email address to get started"}
+                            ? "Verifique sua caixa de entrada pelo código de verificação"
+                            : "Digite seu email para começar"}
                 </p>
             </motion.div>
             {isEmailOpen ? (
@@ -241,7 +241,7 @@ const SignUpForm = () => {
                             </Button>
                         </div>
                         <div className="pt-12 text-muted-foreground text-sm">
-                            <span>Already have an account?</span> <Link href="/auth/signin" className="text-foreground">Login</Link>
+                            <span>Já tem uma conta?</span> <Link href="/auth/signin" className="text-foreground">Entrar</Link>
                         </div>
                     </motion.div>
                 </div>

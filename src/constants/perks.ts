@@ -5,32 +5,32 @@ import React from "react";
 export const PERKS = [
     {
         icon: ZapIcon,
-        title: "Fast and Efficient",
-        description: "Experience quick and seamless content creation with our optimized AI tools."
+        title: "Implementação Rápida",
+        description: "Agentes de IA operacionais em poucas semanas, não meses. Metodologia ágil de entrega."
     },
     {
         icon: ChartSplineIcon,
-        title: "Insightful Analytics",
-        description: "Gain valuable insights and analytics to enhance your social media strategy."
+        title: "ROI Mensurável",
+        description: "Redução média de 40% em custos operacionais com relatórios detalhados de performance."
     },
     {
         icon: LifeBuoyIcon,
-        title: "24/7 Support",
-        description: "Our team is available around the clock to assist with any issues or questions."
+        title: "Suporte Especializado",
+        description: "Equipe técnica dedicada com expertise em IA e conhecimento profundo do seu negócio."
     },
     {
         icon: PaletteIcon,
-        title: "Customizable Solutions",
-        description: "Tailor the tools and features to fit your unique social media needs."
+        title: "Soluções Personalizadas",
+        description: "Agentes de IA desenvolvidos sob medida para atender às necessidades específicas da sua empresa."
     },
     {
         icon: ShieldCheckIcon,
-        title: "Secure and Reliable",
-        description: "Trust our platform to keep your data safe and ensure consistent performance."
+        title: "Segurança Enterprise",
+        description: "Infraestrutura segura com criptografia de dados e conformidade com LGPD."
     },
     {
         icon: WaypointsIcon,
-        title: "Seamless Integration",
-        description: "Easily integrate with your existing social media platforms and tools."
+        title: "Integração Total",
+        description: "Conectividade com seus sistemas existentes: ERP, CRM, e-commerce e plataformas legadas."
     },
 ];
